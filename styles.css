@@ -1,0 +1,37 @@
+
+body {
+    margin: 0;
+}
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 0;
+}
+
+.header-logo {
+    margin: 24px;
+    font-size: 24px;
+    font-family: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-links{
+    margin: 24px;
+    font-size: 18px;
+    font-family: #E5E7EB;
+}
+
+.header-links a {
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-container {
+    background-color: white;
+}
