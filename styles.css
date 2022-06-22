@@ -145,7 +145,7 @@ img {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    width: 50%;
+    width: 42%;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -153,7 +153,7 @@ img {
 /* call to action section */
 .call-to-action {
     display: flex;
-    justify-content: center;
+    justify-content: center;  
     padding: 50px;
 }
 
@@ -162,8 +162,8 @@ img {
     border-radius: 6px;
     border: 0;
     width: 800px;
-    justify-content: left;
     padding: 30px;
+    margin-left: 90px;
 }
 
 .cta-button2 {
@@ -193,4 +193,15 @@ img {
     color: white;
     margin-top: 5px;
     font-size: 120%;
+}
+
+/* footer section */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
 }
