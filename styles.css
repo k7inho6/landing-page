@@ -2,6 +2,8 @@
 body {
     margin: 0;
 }
+
+/* header section */
 .header {
     background-color: #1F2937;
     display: flex;
@@ -34,6 +36,7 @@ a {
     color: white;
 }
 
+/* hero section */
 .hero-container {
     background-color: #1F2937;
     display: flex;
@@ -92,6 +95,7 @@ a {
     margin-left: 50px;
 }
 
+/* info section */
 .info-header {
     font-family: #1F2937;
     font-size: 36px;
@@ -129,6 +133,7 @@ img {
     height: auto;
 }
 
+/* quote section */
 .quote-container {
     background-color: #E5E7EB;
     display: flex;
@@ -143,4 +148,49 @@ img {
     width: 50%;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+/* call to action section */
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    border-radius: 6px;
+    border: 0;
+    width: 800px;
+    justify-content: left;
+    padding: 30px;
+}
+
+.cta-button2 {
+    background-color: #3882F6;
+    border-radius: 6px;
+    border: 1;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    font-size: 110%;
+    width: 90px;
+    height: 50px;
+    position: relative;
+    right: 7%;
+    top: 45px;
+    
+}
+
+.cta-p1 {
+    color: white;
+    font-weight: bold;
+    font-size: 160%;
+    margin-bottom: 0;
+}
+
+.cta-p2 {
+    color: white;
+    margin-top: 5px;
+    font-size: 120%;
 }
